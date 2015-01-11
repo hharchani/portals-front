@@ -1,0 +1,70 @@
+body {
+    background-color: #000;
+}
+.page-title {
+    font-family: "Monoton", "Open Sans", sans-serif;
+    font-weight: normal;
+}
+.page-sub-title {
+    text-align: center;
+}
+.box {
+    border-radius: 25px 25px 0 0;
+    margin-top: 20px;
+}
+.sub-navbar {
+    text-align: center;
+}
+.sub-navbar .box, .box .well {
+    border-bottom: 3px solid #098816;
+}
+.sub-navbar ul {
+    display: inline-block;
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+}
+.sub-navbar li {
+    display: inline-block;
+}
+.sub-navbar a {
+    border-radius: 7px 7px 0 0;
+    display: inline-block;
+    margin: 0 5px;
+    padding: 5px 20px;
+    transition: background-color 0.2s;
+}
+.sub-navbar a.active {
+    background-color: #098816;
+}
+.sub-navbar a:hover {
+    background-color: #005810;
+}
+.box h3 {
+    text-align: center;
+    padding: 5px;
+}
+.box-item {
+    padding: 5px 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+a {
+
+}
