@@ -1,11 +1,13 @@
 body {
     background-color: #000;
 }
-.page-title {
+h1.page-title {
     font-family: "Monoton", "Open Sans", sans-serif;
+    font-size: 48px;
     font-weight: normal;
 }
-.page-sub-title {
+p.page-sub-title {
+    font-size: 1.2em;
     text-align: center;
 }
 .box {
@@ -29,7 +31,7 @@ body {
 }
 .sub-navbar a {
     border-radius: 7px 7px 0 0;
-    display: inline-block;
+    display: block;
     margin: 0 5px;
     padding: 5px 20px;
     transition: background-color 0.2s;
@@ -47,8 +49,17 @@ body {
 .box-item {
     padding: 5px 10px;
 }
-
-
+.question-title {
+    padding-bottom: 10px;
+    border-bottom: 2px solid #098816;
+}
+hr {
+    content: "hello";
+    background: #098816;
+    margin: 20px 0;
+    border: none;
+    height: 2px;
+}
 
 
 

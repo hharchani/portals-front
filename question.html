@@ -9,6 +9,42 @@
     <link rel="stylesheet" href="css/portals.css"/>
 
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600|Monoton" rel="stylesheet" type="text/css">
+	<style>
+		.table{
+		background-color: rgba(0, 38, 56, 0.7);
+		margin:auto;
+		border-top-left-radius:45px;
+		border-top-right-radius:45px;
+		border-bottom:8px groove #098816;
+		border-spacing:10px;
+		padding: 15px;
+		border-collapse:collapse;
+		text-align:center;
+		transition: background-color 0.2s;
+		}
+		td,th{
+		border-spacing:10px;
+		padding: 15px;
+		border-collapse:collapse;
+		text-align:center;
+		}
+		td a {
+			padding: 5px;
+		}
+		.table .correct{
+		background-color: #098816;
+		}
+		.table .wrong{
+		background-color: #A00;
+		}
+		.table .unattempted{
+		background-color: #0D5C84;
+		}
+		.table a:hover{
+		border-radius: 7px 7px 0 0;
+		background-color: #005810;
+		}
+	</style>
 </head>
 <body>
     <div class="wrapper">
@@ -29,50 +65,15 @@
             </p>
             <div class="sub-navbar">
                 <ul class="box">
-                    <li><a href="#" class="active">Dashboard</a></li>
-                    <li><a href="#">Problems</a></li>
+                    <li><a href="index.html" class="active">Dashboard</a></li>
+                    <li><a href="question.html">Problems</a></li>
                     <li><a href="#">Scoreboard</a></li>
                 </ul>
             </div>
-	           </div>
-			<div>
-		<style>
-		.table{
-		background-color: rgba(0, 38, 56, 0.7);
-		margin:auto;
-		border-top-left-radius:45px;
-		border-top-right-radius:45px;
-		border-bottom:8px groove #098816;
-		border-spacing:10px;
-		padding: 15px;
-		border-collapse:collapse;
-		text-align:center;
-		transition: background-color 0.2s;
-		}
-		td,th{
-		border-spacing:10px;
-		padding: 15px;
-		border-collapse:collapse;
-		text-align:center;
-		}
-		.table .correct{
-		background-color: #00FF88;
-		}
-		.table .wrong{
-		background-color: #FF0000;
-		}
-		.table .unattempted{
-		background-color: #FFCC33;
-		}
-		.table a:hover{
-		border-radius: 7px 7px 0 0;
-	    margin: 0 5px;
-    	padding: 5px 20px;
-		background-color: #005810;
-		}
-		</style>
+	    </div>
+		<div class="container">
 			<table class="table">
-				<thead	>
+				<thead>
 					<tr>
 						<th>&nbsp; #</th>
 						<th>Problem</th>
@@ -82,28 +83,25 @@
 				<tbody>
 					<tr>
 						<td>1</td>
-						<td><a href="#">THE Gandalf forgot Frodo Baggins and Sam Wise Gamgee</a></td>
+						<td><a href="problem.html">THE Gandalf forgot Frodo Baggins and Sam Wise Gamgee</a></td>
 						<td class="correct">Accepted</td>
 					</tr>
 						<tr>
 						<td>1</td>
-						<td><a href="#">THE Gandalf</a></td>
+						<td><a href="problem.html">THE Gandalf</a></td>
 						<td class="wrong">Wrong Answer</td>
 					</tr>
 					<tr>
 						<td>1</td>
-						<td><a href="#">THE Gandalf</a></td>
+						<td><a href="problem.html">THE Gandalf</a></td>
 						<td class="unattempted"> NOt Attempted </td>
 					</tr>
-
 				<tbody>
 			</table>
-			</div>
-
+		</div>
     </div>
     <div class="footer">
         <p>&copy; Felicity 2014-2015</p>
     </div>
 </body>
 </html>
-
